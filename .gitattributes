@@ -1,0 +1,15 @@
+*.py linguist-language=Python
+*.ipynb linguist-language=Jupyter Notebook
+
+README.md linguist-documentation
+*.md linguist-documentation
+
+data/** linguist-vendored
+datasets/** linguist-vendored
+exports/** linguist-vendored
+output/** linguist-vendored
+results/** linguist-vendored
+
+*.csv linguist-vendored
+*.parquet linguist-vendored
+*.json linguist-vendored
